@@ -16,3 +16,6 @@ typeguard==2.13.3
 accelerate==0.18.0
 pytesseract==0.3.10
 gradio==3.24.1
+sentencepiece>=0.2.1 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
